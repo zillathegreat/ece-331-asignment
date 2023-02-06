@@ -6,7 +6,7 @@ def take():
     r = sr.Recognizer()
 
     # Filename is your own audio file. Record an audio and put here:
-    audioFile = sr.AudioFile('Filename.wav')
+    audioFile = sr.AudioFile('jeff.wav')
     with audioFile as source:
         r.pause_threshold = 1
         r.adjust_for_ambient_noise(source)
